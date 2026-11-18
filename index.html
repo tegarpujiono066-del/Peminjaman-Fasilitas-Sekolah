@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PinjamFasilitas - Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="panel">
+    <div class="card">
+
+      <!-- Logo & nama sistem -->
+      <div class="brand">
+        <div class="logo">
+          <svg width="56" height="56" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 32 32 12l24 20" stroke="#1a3d34" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M14 30v22h36V30" stroke="#1a3d34" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="26" y="38" width="12" height="14" rx="1" stroke="#1a3d34" stroke-width="4"/>
+            <path d="M32 4v14M25 11h14" stroke="#f0b429" stroke-width="5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div>
+          <div class="brand-sub">Sistem Sekolah</div>
+          <div class="brand-name">PinjamFasilitas</div>
+        </div>
+      </div>
+
+      <!-- Judul -->
+      <div class="label-atas">Portal Peminjaman</div>
+      <h1>Selamat datang</h1>
+      <p class="deskripsi">Masuk untuk mulai meminjam fasilitas sekolah dengan mudah.</p>
+
+      <!-- Form login -->
+      <form action="#" method="post">
+        <div class="field">
+          <label for="username">Username</label>
+          <div class="input-wrap">
+            <svg class="icon-kiri" viewBox="0 0 24 24" fill="none" stroke="#6b7f78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="4"/>
+              <path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/>
+            </svg>
+            <input type="text" id="username" name="username" placeholder="Masukkan username" autocomplete="username" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="password">Password</label>
+          <div class="input-wrap">
+            <svg class="icon-kiri" viewBox="0 0 24 24" fill="none" stroke="#6b7f78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="4" y="11" width="16" height="10" rx="2.5"/>
+              <path d="M8 11V8a4 4 0 0 1 8 0v3"/>
+            </svg>
+            <input type="password" id="password" name="password" placeholder="Masukkan password" autocomplete="current-password" required>
+            <svg class="icon-kanan" viewBox="0 0 24 24" fill="none" stroke="#6b7f78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+          </div>
+        </div>
+
+        <button type="submit" class="btn">
+          Lanjutkan
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 5l7 7-7 7"/>
+          </svg>
+        </button>
+      </form>
+
+    </div>
+  </main>
+
+</body>
+</html>
